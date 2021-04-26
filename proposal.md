@@ -11,10 +11,13 @@ My game is called **Paddle Master**, and is based on the 1970s arcade classic "P
 # Basic Features
 
 The basic features of the game include:
-    *`Ability to move up and down`
-    *`Scoreboard`
-    *`ew game starts after the winner reaches 5`
-    *`Interactive AI`
+    *`Ability to move up and down`*
+
+    *`Scoreboard`*
+
+    *`New game starts after the winner reaches 5`*
+    
+    *`Interactive UI`*
 
 
 # Objects
