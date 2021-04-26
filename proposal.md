@@ -1,6 +1,6 @@
 # Overview
 
-    My game is called **Paddle Master, and is based on the 1970s arcade classic "Pong" by Atari. The object of the game is to use your paddle to hit the ball past your oppent to score points.
+    My game is called **Paddle Master**, and is based on the 1970s arcade classic "Pong" by Atari. The object of the game is to use your paddle to hit the ball past your oppent to score points.
 
 # Gameplay
 
@@ -13,10 +13,10 @@
 # Basic Features
 
     The basic features of the game include:
-    *The player's paddle and the ability to move up and down
-    *Scoreboard
-    *New game starts after the winner reaches 5
-    *Interactive AI
+    *The player's paddle and the ability to move up and down*
+    *Scoreboard*
+    *New game starts after the winner reaches 5*
+    *Interactive AI*
 
 
 
