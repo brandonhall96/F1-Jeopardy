@@ -1,5 +1,4 @@
-# 
-**Paddle Master Proposal**
+# Paddle Master Proposal
 
 This is my proposal for my game **Paddle Master** It will demonstrate a combination of HTML, CSS and Javascript.
 
@@ -11,22 +10,20 @@ My game is called **Paddle Master**, and is based on the 1970s arcade classic "P
 
 # Gameplay
 
-    The game is fairly easy to play. The player controls the paddle using the arrow keys to move up and down the y axis.
-    The goal of the game is to serve the ball to the openent and try to get it past them. For every hit past oppenent you are awarded 1 point. First to score 5 points wins the game
+The game is fairly easy to play. The player controls the paddle using the arrow keys to move up and down the y axis.
+The goal of the game is to serve the ball to the openent and try to get it past them. For every hit past oppenent you are awarded 1 point. First to score 5 points wins the game
 
 
 # Basic Features
-
-The basic features of the game include:
-    *`Ability to move up and down`*
-    *`Scoreboard`*
-    *`New game starts after the winner reaches 5`*
-    *`Interactive UI`*
+*`Ability to move up and down`*
+*`Scoreboard`*
+*`New game starts after the winner reaches 5`*
+*`Interactive UI`*
 
 
 # Goals
 
-The origianl version will just have a black background with white paddles, balls and border.
+The original version will have a black background with white paddles, balls and border.
 
 I have some goals for the game visually. Ideally i would like to make the paddles made to look like hockey sticks and make the ball into a puck of some sort.
 
@@ -45,7 +42,7 @@ I have some goals for the game visually. Ideally i would like to make the paddle
 
 
 
-## Puck
+## Ball
 ### Variables
 
 
