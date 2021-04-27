@@ -1,4 +1,4 @@
-# Paddle Master
+# F1 Jeopardy
 
 Explanation of the game that was built and the deployed link will go here.
 
