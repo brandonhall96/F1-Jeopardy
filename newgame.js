@@ -1,15 +1,36 @@
 const quizBox = document.getElementById('#quiz')  // Were taking the html elements and storing my
 const resultsBox = document.getElementById('#results')  // references to them in variables like so
 const submitButton = document.getElementById('#results')
-
-function buildingQuiz() {  // here we have a function to build the quiz 
-
-
+const output = [];
+const answers = [];
 
 
 
+// here we have a function to build the quiz 
+function buildingQuiz() {
 
-}
+    myQuestions.forEach(questions, answers) 
+
+    for (let i = 0; i < myQuestions.length; i++)
+    console.log(myQuestions);
+
+
+
+
+
+
+}  
+    
+
+
+    
+    
+
+
+
+
+
+
 
 
 
@@ -20,7 +41,7 @@ function showResults() {       // here we have a function to show the results
 
 
 
-}
+};
 
 
 
@@ -31,6 +52,9 @@ buildingQuiz();
 //on submit, show results. the event listener grabs our submit button and tells it what to do
 //in this case its show results 
 submitButton.addEventListener('click', showResults);
+
+
+
 
 const myQuestions = [
     {
@@ -89,18 +113,40 @@ const myQuestions = [
     },
 
     {
-        question: ''
+        question: 'Which team used a black and yellow livery for the 2019 season',
+        answers: {
+            a: 'Aston Martin',
+            b: 'Ferrari',
+            c: 'Renault',
+            d: 'Haas'
+        },
+        correctAnswer: 'c'
+    },
 
+    {
+        question: 'Which term is used to reference a pit stop',
+        answers: {
+            a: 'pit',
+            b: 'box',
+            c: 'break',
+            d: 'scoop'
+        },
+        correctAnswer: 'b'
+    },
 
-
-
-
-
+    {
+        question: 'Which F1 track hosts the best race of the year',
+        answers: {
+            a: 'Monaco',
+            b: 'Imloa',
+            c: 'Red Bull Ring',
+            d: 'Nurburgring'
+        },
+        correctAnswer: 'a'
     }
-
-
-
 ];
+
+console.log(myQuestions);
 
 
 
