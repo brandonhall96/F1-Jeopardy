@@ -34,14 +34,65 @@ submitButton.addEventListener('click', showResults);
 
 const myQuestions = [
     {
-        questions: "Which driver led Ferrari to 7 worlds championships?",
+        question: "Which driver led Ferrari to 7 worlds championships?",
         answers: {
             a: 'Carlos Sainz',
             b: 'Niki Lauda',
             c: 'Michael Schumacher',
             d: 'Sebastian Vettel'
         },
-        CorrectAnswer: 'c'
+        correctAnswer: 'c'
+    },
+
+    {
+        question: 'Who is the #1 driver for Red Bull',
+        answers: {
+            a: 'Daniel Ricciardo',
+            b: 'Max Verstappen',
+            c: 'Sergio Perez',
+            d: 'Alex Albon'
+        },
+        correctAnswer: 'b'
+    },
+
+    {
+        question: 'Who won the 2016 World Championship?',
+        answers: {
+            a: 'Nico Rosberg',
+            b: 'Lewis Hamilton',
+            c: 'Kimi Raikkonen',
+            d: 'Sebastian Vettel'
+        },
+        correctAnswer: 'a'
+    },
+
+    {
+        question: 'Which team uses a bright orange livery on their car?',
+        answers: {
+            a: 'Haas',
+            b: 'Williams',
+            c: 'AlphaTauri',
+            d: 'McLaren'
+        },
+        correctAnswer: 'd'
+    },
+
+    {
+        question: 'Which car company made its return to F1 for 2020',
+        answers: {
+            a: 'Aston Martin',
+            b: 'Mercedes',
+            c: 'Alfa Romeo',
+            d: 'Williams'
+        },
+        correctAnswer: 'a'
+    },
+
+    {
+        question: ''
+
+
+
 
 
 
@@ -49,6 +100,7 @@ const myQuestions = [
 
 
 
+];
 
 
 
@@ -58,5 +110,8 @@ const myQuestions = [
 
 
 
-]
+
+
+
+
 
