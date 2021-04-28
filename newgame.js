@@ -1,57 +1,37 @@
-const quizBox = document.getElementById('#quiz')  // Were taking the html elements and storing my
-const resultsBox = document.getElementById('#results')  // references to them in variables like so
-const submitButton = document.getElementById('#results')
-const output = [];
-const answers = [];
+const quizBox = document.getElementById('quiz')  // Were taking the html elements and storing my
+const resultsBox = document.getElementById('results')  // references to them in variables like so
+const submitButton = document.getElementById('submit')
+const theQuestion = document.getElementById('question')
+const theAnswers = document.querySelectorAll('input[type="radio"]')
+
+
+let theAnswersLabels = document.querySelectorAll('label')
+console.log(theAnswersLabels)
+
+console.log(theAnswers);
+
+let counter = 0;
 
 
 
-// here we have a function to build the quiz 
-function buildingQuiz() {
+  
 
-    myQuestions.forEach(questions, answers) 
 
-    for (let i = 0; i < myQuestions.length; i++)
-    console.log(myQuestions);
+// function showResults() {       // here we have a function to show the results
 
 
 
 
-
-
-}  
-    
-
-
-    
-    
-
-
+// };
 
 
 
 
 
 
-
-
-function showResults() {       // here we have a function to show the results
-
-
-
-
-
-};
-
-
-
-
-//displays quiz right away
-buildingQuiz();
-
-//on submit, show results. the event listener grabs our submit button and tells it what to do
-//in this case its show results 
-submitButton.addEventListener('click', showResults);
+// //on submit, show results. the event listener grabs our submit button and tells it what to do
+// //in this case its show results 
+// submitButton.addEventListener('click', showResults);
 
 
 
@@ -146,10 +126,110 @@ const myQuestions = [
     }
 ];
 
+
+
+// here we have a function to build the quiz 
+
+
+
+
+
+
+function buildingQuiz() {
+    theQuestion.innerHTML = myQuestions[counter].question
+    console.log(myQuestions[counter].answers)
+
+    for (let i = 0; i < 5; i++) {
+        
+    }
+        
+
+
+
+//     for (let i = 0; i < myQuestions.length; i++) {
+
+//         console.log(myQuestions[i].question) // thi sdictates where the qustions are in the array and is printing all of them
+
+//         let question = document.createElement('p');
+//         question.textContent = myQuestions[i].question;
+//         quizBox.append(question);
+// 0
+//         let answer1 = document.createElement('input');
+//         answer1.id = 'answer' + i.toString();
+//         answer1.type = 'radio';
+//         quizBox.append(answer1);
+        
+//         let answer2 = document.createElement('input');
+//         answer2.id = 'answer' + i.toString();
+//         answer2.type = 'radio';
+//         quizBox.append(answer2);
+        
+//         let answer3 = document.createElement('input');
+//         answer3.id = 'answer' + i.toString();
+//         answer3.type = 'radio';
+//         quizBox.append(answer3);
+        
+//         let answer4 = document.createElement('input');
+//         answer4.id = 'answer' + i.toString();
+//         answer4.type = 'radio';
+//         quizBox.append(answer4);
+
+//              //we can turn these into a loop to only have 1 each
+
+    
+//         let label1 = document.createElement('label');
+//         label1.for = answer1.id;
+//         label1.textContent = myQuestions[i].answers.a;
+//         quizBox.append(label1)
+
+//         let label2 = document.createElement('label');
+//         label2.for = answer2.id;
+//         label2.textContent = myQuestions[i].answers.b;
+//         quizBox.append(label2)
+
+//         let label3 = document.createElement('label');
+//         label3.for = answer3.id;
+//         label3.textContent = myQuestions[i].answers.c;
+//         quizBox.append(label3)
+        
+//         let label4 = document.createElement('label');
+//         label4.for = answer4.id;
+//         label4.textContent = myQuestions[i].answers.d;
+//         quizBox.append(label4)
+
+//         console.log(myQuestions[i].answers.a)
+        
+
+        // Add answer2 and label2 
+        //add answer 3 nd label 3
+        //add answer 4 and label4
+        
+    
+    
+// }
+
+}
+
+
+
+//displays quiz right away
+buildingQuiz();
+
+
 console.log(myQuestions);
 
 
 
+            // <input type="radio" name="team" id="mercedes" value="merc">
+            // <label for="mercedes">Mercedes</label>
+            // <input type="radio" name="team" id="redbull" value="rb">
+            // <label for="redbull">Redbull</label>
+            // <input type="radio" name="team" id="ferrari" value="fr">
+            // <label for="ferrari">Ferrari</label>
+
+
+
+    
 
 
 

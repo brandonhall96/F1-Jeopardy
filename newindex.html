@@ -1,47 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/newstyle.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/newstyle.css" />
+  </head>
+  <body>
+    <h1>F1 Jeopardy</h1>
 
-    <h1></h1>
+    <div id="quiz"><!-- This div will hold the physical quiz itself--></div>
 
+    <form id="form1" name="form1">
+      <p id="question">question</p>
+      <!-- insert question here-->
+      <input type="radio" id="input1" name="input1"/>
+      <label for="input1">Answer1</label>
 
-    <div id="quiz">      <!-- This div will hold the physical quiz itself-->
+      <input type="radio" id="input2" name="input2" />
+      <label for="input2">answer2</label>
 
-    </div>
-    <label>
-    <input type="radio" name="questions">
-    </label>
+      <input type="radio" id="input3" name="input3" />
+      <label for="input3">answer3</label>
 
-    <button id="submit">Submit Answer</button>      <!-- submit button -->
+      <input type="radio" id="input4" name="input4" />
+      <label for="input4">answer4</label>
+    </form>
 
-    <div id="results">                    <!-- This div will diplay our results-->
+    <button id="submit">Submit Answer</button>
+    <!-- submit button -->
 
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div id="results"><!-- This div will diplay our results--></div>
 
     <script src="/newgame.js"></script>
-</body>
+  </body>
 </html>

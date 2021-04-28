@@ -9,18 +9,17 @@
 - [x] What did you achieve yesterday?
 - [x] What are your goals for today?
 - [x] Do you have any blockers?
-1. RESPONSE
-2. RESPONSE
-3. RESPONSE
+1. I got my new project started and figure out what i want it to do 
+2. to make some head way and get a layout done   
+3. yes
 
 # Tuesday
 - [x] What did you achieve yesterday?
 - [x] What are your goals for today?
 - [x] Do you have any blockers?
-1. RESPONSE
-2. RESPONSE
-3. RESPONSE
-
+1. started working on my first function and started to understand it    
+2. To make the game actually function
+3. yes, was having issue connectiong radio buttons to the html
 # Wednesday
 - [x] What did you achieve yesterday?
 - [x] What are your goals for today?
