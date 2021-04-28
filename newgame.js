@@ -139,21 +139,26 @@ const theAnswers = document.querySelectorAll('input[type="radio"]')
 const myAnswers = document.getElementById('results')
 
 
+let theScore = document.getElementById('score') // grabbing <p id=score 
+let score = 0;
 let theAnswersLabels = document.querySelectorAll('label')
 console.log(theAnswersLabels)
 
 
-function buildingQuiz() {
-    theQuestion.innerHTML = myQuestions[counter].question
+function buildingQuiz() {               // we use [counter] because its and object not a string
+    theQuestion.innerHTML = myQuestions[counter].question //here we taking our questions starting at 0 and putting them inside the html <p id="question"
+    
     // console.log(myQuestions[counter].answers)
 
-   theAnswersLabels[0].innerHTML = myQuestions[counter].answers.a
-   theAnswersLabels[1].innerHTML = myQuestions[counter].answers.b
+   theAnswersLabels[0].textContent = myQuestions[counter].answers.a // here we are taking our answers 'a' and assigning it to the corresponding label for our radio button
+   theAnswersLabels[1].innerHTML = myQuestions[counter].answers.b // same here for answers 'b' but were assignind it to the 1 radio button label 
    theAnswersLabels[2].innerHTML = myQuestions[counter].answers.c   
    theAnswersLabels[3].innerHTML = myQuestions[counter].answers.d
-theAnswers[0].value = 'a'
-theAnswers[1].value = 'b'
-theAnswers[2].value = 'c'
+
+
+theAnswers[0].value = 'a' // here we are linking our 'a' answers to the first button
+theAnswers[1].value = 'b' // now were linking our 'b' answers to radio button 1
+theAnswers[2].value = 'c' 
 theAnswers[3].value = 'd'
    console.log(theAnswers[0].value)
 
@@ -167,21 +172,39 @@ function showResults() {
     // console.log(theAnswers[0].checked)
 
     for (let i = 0; i < theAnswers.length; i++) {
-        if (theAnswers[i].checked) {
-          if (theAnswers[i].value == myQuestions[counter].correctAnswer) {
+        if (theAnswers[i].checked) { // looping through the answers to check if correct
+          if (theAnswers[i].value == myQuestions[counter].correctAnswer) { //if the answer we chose is equal to the correct answer 
             console.log("this is correct")
+            score ++                      // these lines are counting our score up 
+            theScore.textContent = score;
+            myAnswers.textContent = 'Thats Correct!' // used .textContent to display result
+           
         }
-        else {
+        else {        // if its not 
             console.log('this is incorrect')
+            myAnswers.textContent = 'Incorrect'
         }
 
 
-    }
 
     }
 
+    }
+    if (counter + 1 < myQuestions.length) { // this is our formula to move on to the next question 
+        counter ++ 
+        buildingQuiz(); // why did we put this here?
+    }
+    
 }
 
+
+   
+
+
+function displayResults() { 
+    
+    
+}
 
 submitButton.addEventListener('click', showResults)
 
