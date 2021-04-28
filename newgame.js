@@ -1,16 +1,15 @@
-const quizBox = document.getElementById('quiz')  // Were taking the html elements and storing my
-const resultsBox = document.getElementById('results')  // references to them in variables like so
-const submitButton = document.getElementById('submit')
-const theQuestion = document.getElementById('question')
-const theAnswers = document.querySelectorAll('input[type="radio"]')
+// const quizBox = document.getElementById('quiz')  // Were taking the html elements and storing my
+// const resultsBox = document.getElementById('results')  // references to them in variables like so
+// const submitButton = document.getElementById('submit')
+// const theQuestion = document.getElementById('question')
+// const theAnswers = document.querySelectorAll('input[type="radio"]')
 
 
-let theAnswersLabels = document.querySelectorAll('label')
-console.log(theAnswersLabels)
+// let theAnswersLabels = document.querySelectorAll('label')
+// console.log(theAnswersLabels)
 
-console.log(theAnswers);
 
-let counter = 0;
+
 
 
 
@@ -131,17 +130,64 @@ const myQuestions = [
 // here we have a function to build the quiz 
 
 
+let counter = 0;
+const quizBox = document.getElementById('quiz')  // Were taking the html elements and storing my
+const resultsBox = document.getElementById('answers')  // references to them in variables like so
+const submitButton = document.getElementById('submit')
+const theQuestion = document.getElementById('question')
+const theAnswers = document.querySelectorAll('input[type="radio"]')
+const myAnswers = document.getElementById('results')
 
 
+let theAnswersLabels = document.querySelectorAll('label')
+console.log(theAnswersLabels)
 
 
 function buildingQuiz() {
     theQuestion.innerHTML = myQuestions[counter].question
-    console.log(myQuestions[counter].answers)
+    // console.log(myQuestions[counter].answers)
 
-    for (let i = 0; i < 5; i++) {
+   theAnswersLabels[0].innerHTML = myQuestions[counter].answers.a
+   theAnswersLabels[1].innerHTML = myQuestions[counter].answers.b
+   theAnswersLabels[2].innerHTML = myQuestions[counter].answers.c   
+   theAnswersLabels[3].innerHTML = myQuestions[counter].answers.d
+theAnswers[0].value = 'a'
+theAnswers[1].value = 'b'
+theAnswers[2].value = 'c'
+theAnswers[3].value = 'd'
+   console.log(theAnswers[0].value)
+
+}
+
+buildingQuiz();
         
+function showResults() {
+    // if (myQuestions[counter].correctAnswer)
+    console.log(myQuestions[counter].correctAnswer)
+    // console.log(theAnswers[0].checked)
+
+    for (let i = 0; i < theAnswers.length; i++) {
+        if (theAnswers[i].checked) {
+          if (theAnswers[i].value == myQuestions[counter].correctAnswer) {
+            console.log("this is correct")
+        }
+        else {
+            console.log('this is incorrect')
+        }
+
+
     }
+
+    }
+
+}
+
+
+submitButton.addEventListener('click', showResults)
+
+
+
+
         
 
 
@@ -208,15 +254,14 @@ function buildingQuiz() {
     
 // }
 
-}
 
 
 
 //displays quiz right away
-buildingQuiz();
 
 
-console.log(myQuestions);
+
+
 
 
 
@@ -230,7 +275,6 @@ console.log(myQuestions);
 
 
     
-
 
 
 
