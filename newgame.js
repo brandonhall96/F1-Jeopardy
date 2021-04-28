@@ -1,39 +1,3 @@
-// const quizBox = document.getElementById('quiz')  // Were taking the html elements and storing my
-// const resultsBox = document.getElementById('results')  // references to them in variables like so
-// const submitButton = document.getElementById('submit')
-// const theQuestion = document.getElementById('question')
-// const theAnswers = document.querySelectorAll('input[type="radio"]')
-
-
-// let theAnswersLabels = document.querySelectorAll('label')
-// console.log(theAnswersLabels)
-
-
-
-
-
-
-  
-
-
-// function showResults() {       // here we have a function to show the results
-
-
-
-
-// };
-
-
-
-
-
-
-// //on submit, show results. the event listener grabs our submit button and tells it what to do
-// //in this case its show results 
-// submitButton.addEventListener('click', showResults);
-
-
-
 
 const myQuestions = [
     {
@@ -201,16 +165,12 @@ function showResults() {
    
 
 
-function displayResults() { 
-    
-    
-}
 
 submitButton.addEventListener('click', showResults)
 
 
 
-
+// incorrect and correct appear on the next question
         
 
 
