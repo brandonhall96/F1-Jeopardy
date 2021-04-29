@@ -3,7 +3,7 @@
     font-family: 'Monoton', cursive;
     background-color: #ff2800;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 13px;
     
 }
 
@@ -66,9 +66,23 @@ h1 {
 #gameover {
     font-family: 'Orelega One', cursive;
     color: #ff2800;
-    font-size: 60px;
+    font-size: 60px;   
+}
 
-    
+#next {
+    color: white;
+    font-family: 'Monoton', cursive;
+    background-color: #ff2800;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+#reset {
+    color: white;
+    font-family: 'Monoton', cursive;
+    background-color: #ff2800;
+    border-radius: 20px;
+    font-size: 13px;
 }
 
 

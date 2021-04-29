@@ -96,6 +96,7 @@ const theQuestion = document.getElementById('question')
 const theAnswers = document.querySelectorAll('input[type="radio"]')
 const myAnswers = document.getElementById('results')
 const restartButton = document.getElementById('reset')
+const nextButton = document.getElementById('next')
 
 let counter = 0; //this is counting questions
 let theScore = document.getElementById('score') // grabbing <p id=score 
@@ -152,13 +153,7 @@ function showResults() {
     }
 
     }
-    if (counter + 1 < myQuestions.length) { // this is our formula to move on to the next question 
-        counter ++ 
-        buildingQuiz(); // why did we put this here?
-    }
-    else {
-        gameFinal();
-    }
+    
     
 }
 
@@ -181,7 +176,18 @@ function restartGame() {
     myAnswers.textContent = ''
     buildingQuiz();
 
-}        
+}
+
+function nextMove() {
+    myAnswers.textContent = ''
+    if (counter + 1 < myQuestions.length) { // this is our formula to move on to the next question 
+        counter ++ 
+        buildingQuiz(); // why did we put this here?
+    }
+    else {
+        gameFinal();
+    }
+}
     
 
 
@@ -190,7 +196,7 @@ function restartGame() {
 
    
 
-
+nextButton.addEventListener('click', nextMove)
 restartButton.addEventListener('click', restartGame)
 submitButton.addEventListener('click', showResults)
 
