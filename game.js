@@ -95,6 +95,7 @@ const submitButton = document.getElementById('submit')
 const theQuestion = document.getElementById('question')
 const theAnswers = document.querySelectorAll('input[type="radio"]')
 const myAnswers = document.getElementById('results')
+const myAnswers2 = document.getElementById('results2')
 const restartButton = document.getElementById('reset')
 const nextButton = document.getElementById('next')
 
@@ -103,6 +104,7 @@ let theScore = document.getElementById('score') // grabbing <p id=score
 let score = 0;
 let theAnswersLabels = document.querySelectorAll('label')
 let endGame = document.getElementById('finalscore')
+let endGame2 = document.getElementById('finalscore2')
 console.log(theAnswersLabels)
 
 
@@ -144,7 +146,7 @@ function showResults() {
         }
         else {        // if its not 
             console.log('this is incorrect')
-            myAnswers.textContent = 'Incorrect'
+            myAnswers2.textContent = 'Incorrect'
             // window.alert('You got it wrong')
         }
 
@@ -164,7 +166,7 @@ function gameFinal() {
         }
 
         else {
-                endGame.textContent = 'You lose, try again!'
+                endGame2.textContent = 'You lose, try again!'
             }
         }
         
@@ -174,12 +176,16 @@ function restartGame() {
     score = 0;
     theScore.textContent = score;
     myAnswers.textContent = ''
+    myAnswers2.textContent = ''
+    endGame.textContent = ''
+    endGame2.textContent = ''
     buildingQuiz();
 
 }
 
 function nextMove() {
     myAnswers.textContent = ''
+    myAnswers2.textContent = ''
     if (counter + 1 < myQuestions.length) { // this is our formula to move on to the next question 
         counter ++ 
         buildingQuiz(); // why did we put this here?

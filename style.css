@@ -46,8 +46,14 @@ h1 {
 
 #results {
     font-family: 'Orelega One', cursive;
-    color: #ff2800;
-    font-size: 30px;
+    color: lime;
+    font-size: 50px;
+}
+
+#results2 {
+    font-family: 'Orelega One', cursive;
+    color: red;
+    font-size: 50px;
 }
 
 #score {
@@ -70,8 +76,18 @@ h1 {
 
 #gameover {
     font-family: 'Orelega One', cursive;
+    color: lime;
+    font-size: 60px; 
+    background-color: black;
+    border-radius: 18px;  
+}
+
+#gameover2 {
+    font-family: 'Orelega One', cursive;
     color: #ff2800;
-    font-size: 60px;   
+    font-size: 60px;  
+    background-color: black;
+    border-radius: 18px; 
 }
 
 #next {
@@ -94,6 +110,16 @@ h1 {
     width: 200px;
     height: 150px;
     margin-bottom: 5px;
+}
+
+#answers {
+    background-color: black;
+    border-radius: 18px;
+}
+
+#answers2 {
+    background-color: black;
+    border-radius: 18px;
 }
 
 
