@@ -10,7 +10,7 @@ Explanation of the game that was built and the deployed link will go here.
 
 
 ## Start Up Screen:
-![Starting screen](/openpic.jpeg)
+![Starting screen](/example.jpeg)
 
 # HOW TO INSTALL
 
@@ -29,11 +29,4 @@ The game is a simple trivia quiz that consists of 8 questions. You will need a s
 I would like to make the game process more automated so some of the buttons wont be needed.
 
 
-# PROCESS WORK
 
-## Initial Wireframes:
-Initial Wireframes go here ( images )
-
-## Scratch Work:
-
-Scratch Work goes here

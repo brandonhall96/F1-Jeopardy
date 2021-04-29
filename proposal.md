@@ -31,24 +31,13 @@ I would also like to add more difficulties that will include more questions.
 
 # Objects
 
-## Paddles 
-### Variables
-*`x coordinate`*
-*`y coordinate`*
-
-
-### Funtions
-
-
-
-## ScoreBoard
-### Variables
+*`Submit Button`*
+*`Next Button`*
+*`Submit Button`*
+*`Questions`*
+*`Answers`*
 *`Score`*
 
-
-
-
-### Functions
 
 
 
