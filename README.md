@@ -1,12 +1,15 @@
 # F1 Jeopardy
 
-Explanation of the game that was built and the deployed link will go here.
+My game is called **F1 Trivia**, which is based off the popular motorsport F1.
+It will demonstrate a combination of HTML, CSS and Javascript.
+
+The game is fairly easy to play and will depend of the users knowledge of the sport. The game will consist of 8 questions and a score of at least 50% will be needed to win.
 
 # HOW TO PLAY
 
-1. Choose your answer
-2. Submit Answer 
-3. Next Question
+1. Choose your best answer to the question given
+2. Click "Submit Answer" and you will get an instant result
+3. Click "Next question" to move on to the next question.
 
 
 ## Start Up Screen:
@@ -21,7 +24,50 @@ Explanation of the game that was built and the deployed link will go here.
 
 
 # HOW IT WORKS
-The game is a simple trivia quiz that consists of 8 questions. You will need a score of at least 50% to win the game.
+The game uses DOM Manipulation to display all questions and answers. It also uses multiple functions to check the users submitted answers and runs them agianst the all the correct ones to verify.
+
+# Examples
+
+## Dom Manipulation
+`function buildingQuiz() {
+theQuestion.innerHTML = myQuestions[counter].question
+theAnswersLabels[0].textContent = myQuestions[counter].answers.a
+theAnswersLabels[1].innerHTML = myQuestions[counter].answers.b
+theAnswersLabels[2].innerHTML = myQuestions[counter].answers.c   
+theAnswersLabels[3].innerHTML = myQuestions[counter].answers.d
+
+theAnswers[0].value = 'a'
+theAnswers[1].value = 'b'
+  console.log(theAnswers[0].value)
+
+}
+
+buildingQuiz();
+
+## Loops
+function showResults() {
+    for (let i = 0; i < theAnswers.length; i++) {
+        if (theAnswers[i].checked) {
+            if (theAnswers[i].value == myQuestions[counter].correctAnswer) {
+                score ++ 
+                theScore.textContent = score;
+            myAnswers.textContent = 'Thats Correct!'
+            }
+        else { 
+            console.log('this is incorrect')
+            myAnswers2.textContent = 'Incorrect'
+                }
+
+
+
+    }
+
+    }
+    
+    
+}
+
+
 
 
 # FUTURE CONSIDERATIONS

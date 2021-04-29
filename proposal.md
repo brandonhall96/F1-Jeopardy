@@ -1,4 +1,4 @@
-# Paddle Master Proposal
+# F1 Trivia Proposal
 
 This is my proposal for my game **F1 Trivia** It will demonstrate a combination of HTML, CSS and Javascript.
 
