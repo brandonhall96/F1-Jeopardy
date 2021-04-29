@@ -1,7 +1,9 @@
 #submit {
     color: white;
     font-family: 'Monoton', cursive;
-    background-color: red;
+    background-color: #ff2800;
+    border-radius: 20px;
+    font-size: 15px;
     
 }
 
@@ -18,24 +20,29 @@ body {
 }
 
 h1 {
-    color: red;
+    color: #ff2800;
     font-family: 'Monoton', cursive;
 }
 
 #question {
-    color: red;
+    color: #ff2800;
     font-family: 'Orelega One', cursive;
     font-size: 30px;
+    background-color: black;
+    border-radius: 18px;
 }
 
 .two {
     font-family: 'Orelega One', cursive;
-    color: red;
+    color: #ff2800;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
 #results {
     font-family: 'Orelega One', cursive;
-    color: red;
+    color: #ff2800;
     font-size: 30px;
 }
 
@@ -43,5 +50,28 @@ h1 {
     font-family: 'Orelega One', cursive;
     color: lime;
     font-size: 30px;
+    
+    
+   
 }
+
+.scoreboard {
+    background-color: black;
+    width: 20px;
+    margin-left: 48%;
+    border-radius: 5px;
+
+}
+
+#gameover {
+    font-family: 'Orelega One', cursive;
+    color: #ff2800;
+    font-size: 60px;
+
+    
+}
+
+
+
+
 

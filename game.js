@@ -100,7 +100,9 @@ let counter = 0;
 let theScore = document.getElementById('score') // grabbing <p id=score 
 let score = 0;
 let theAnswersLabels = document.querySelectorAll('label')
+let endGame = document.getElementById('finalscore')
 console.log(theAnswersLabels)
+
 
 
 function buildingQuiz() {               // we use [counter] because its and object not a string
@@ -153,8 +155,29 @@ function showResults() {
         counter ++ 
         buildingQuiz(); // why did we put this here?
     }
+    else {
+        gameFinal();
+    }
     
 }
+
+function gameFinal() {  
+    
+    if (score >= 4) {
+            endGame.textContent = 'You Win!'
+        }
+
+        else {
+                endGame.textContent = 'You lose, try again!'
+            }
+        }
+        
+
+        
+    
+
+
+
 
 
    
