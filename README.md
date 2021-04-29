@@ -5,7 +5,7 @@ It will demonstrate a combination of HTML, CSS and Javascript.
 
 The game is fairly easy to play and will depend of the users knowledge of the sport. The game will consist of 8 questions and a score of at least 50% will be needed to win.
 
-https://github.com/brandonhall96/F1-Jeopardy
+https://brandonhall96.github.io/F1-Trivia/
 
 # HOW TO PLAY
 
