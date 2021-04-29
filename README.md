@@ -1,4 +1,4 @@
-# F1 Jeopardy
+# F1 Trivia
 
 My game is called **F1 Trivia**, which is based off the popular motorsport F1.
 It will demonstrate a combination of HTML, CSS and Javascript.
@@ -7,7 +7,7 @@ The game is fairly easy to play and will depend of the users knowledge of the sp
 
 https://brandonhall96.github.io/F1-Trivia/
 
-# HOW TO PLAY
+# How to play
 
 1. Choose your best answer to the question given
 2. Click "Submit Answer" and you will get an instant result
@@ -17,7 +17,7 @@ https://brandonhall96.github.io/F1-Trivia/
 ## Start Up Screen:
 ![Starting screen](/example.jpeg)
 
-# HOW TO INSTALL
+# How to install
 
 1. *`Fork`* and *`Clone`* this respository to your local machine
 2. Open `index.html` in your browser to play or 
@@ -25,7 +25,7 @@ https://brandonhall96.github.io/F1-Trivia/
 
 
 
-# HOW IT WORKS
+# How it works
 The game uses DOM Manipulation to display all questions and answers. It also uses multiple functions to check the users submitted answers and runs them agianst the all the correct ones to verify.
 
 # Examples
@@ -66,7 +66,7 @@ buildingQuiz();
 }
 ```
 
-# FUTURE CONSIDERATIONS
+# Future considerations
 
 * More automated process
 * Easy, Hard, and Legendary difficulties
