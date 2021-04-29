@@ -1,31 +1,30 @@
 # Paddle Master Proposal
 
-This is my proposal for my game **Paddle Master** It will demonstrate a combination of HTML, CSS and Javascript.
+This is my proposal for my game **F1 Trivia** It will demonstrate a combination of HTML, CSS and Javascript.
 
 
 
 # Overview
 
-My game is called **Paddle Master**, and is based on the 1970s arcade classic "Pong" by Atari. The object of the game is to use your paddle to keep the ball in play or hit the ball past your oppent to score points.
+My game is called **F1 Trivia**, which is based off the popular motorsport F1
 
 # Gameplay
 
-The game is fairly easy to play. The player controls the paddle using the arrow keys to move up and down the y axis.
-The goal of the game is to serve the ball to the openent and try to get it past them. For every hit past oppenent you are awarded 1 point. First to score 5 points wins the game
+The game is fairly easy to play and will depend of the users knowledge of the sport. The game will consist of 8 questions and a score of at least 50% will be needed to win.
 
 
 # Basic Features
-*`Ability to move up and down`*
-*`Scoreboard`*
-*`New game starts after the winner reaches 5`*
-*`Interactive UI`*
+*`Ability to choose an answer`*
+*`Score counter`*
+*`New game can be chosen at the end`*
+*`Final results`*
 
 
 # Goals
 
-The original version will have a black background with white paddles, balls and border.
+I would like to make the game process more automated so some of the buttons wont be needed.
 
-I have some goals for the game visually. Ideally i would like to make the paddles made to look like hockey sticks and make the ball into a puck of some sort.
+I would also like to add more difficulties that will include more questions.
 
 
 
@@ -39,15 +38,6 @@ I have some goals for the game visually. Ideally i would like to make the paddle
 
 
 ### Funtions
-
-
-
-## Ball
-### Variables
-
-
-
-### Functions
 
 
 
