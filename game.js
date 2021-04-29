@@ -95,8 +95,9 @@ const submitButton = document.getElementById('submit')
 const theQuestion = document.getElementById('question')
 const theAnswers = document.querySelectorAll('input[type="radio"]')
 const myAnswers = document.getElementById('results')
+const restartButton = document.getElementById('reset')
 
-let counter = 0;
+let counter = 0; //this is counting questions
 let theScore = document.getElementById('score') // grabbing <p id=score 
 let score = 0;
 let theAnswersLabels = document.querySelectorAll('label')
@@ -173,7 +174,14 @@ function gameFinal() {
         }
         
 
-        
+function restartGame() {
+    counter = 0;
+    score = 0;
+    theScore.textContent = score;
+    myAnswers.textContent = ''
+    buildingQuiz();
+
+}        
     
 
 
@@ -183,7 +191,7 @@ function gameFinal() {
    
 
 
-
+restartButton.addEventListener('click', restartGame)
 submitButton.addEventListener('click', showResults)
 
 
