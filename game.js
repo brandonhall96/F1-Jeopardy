@@ -161,36 +161,36 @@ function showResults() {
 
 function gameFinal() {  
     
-    if (score >= 4) {
-            endGame.textContent = 'You Win!'
+    if (score >= 4) { //if you score more than 4 do this
+            endGame.textContent = 'You Win!' //taking our end game div and giving it the text "you win!" in a green color
         }
 
-        else {
-                endGame2.textContent = 'You lose, try again!'
+        else {  // if you score less than 4 do this
+                endGame2.textContent = 'You lose, try again!' // taking our second endgame div and giving it the text "you lose" in a red color
             }
         }
         
 
 function restartGame() {
-    counter = 0;
-    score = 0;
+    counter = 0;          // reset questions to the beggining 0
+    score = 0;            // reset score to 0
     theScore.textContent = score;
     myAnswers.textContent = ''
     myAnswers2.textContent = ''
     endGame.textContent = ''
     endGame2.textContent = ''
-    buildingQuiz();
+    buildingQuiz();  // goes back and rebuilds the quiz from the beginning
 
 }
 
 function nextMove() {
-    myAnswers.textContent = ''
+    myAnswers.textContent = ''  //when going to the next question correct or incorrect resets
     myAnswers2.textContent = ''
     if (counter + 1 < myQuestions.length) { // this is our formula to move on to the next question 
         counter ++ 
-        buildingQuiz(); // why did we put this here?
+        buildingQuiz(); 
     }
-    else {
+    else {       // when at the end display game final
         gameFinal();
     }
 }
