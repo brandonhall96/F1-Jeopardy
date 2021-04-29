@@ -42,7 +42,7 @@ theAnswers[1].value = 'b'
 
 }
 
-buildingQuiz();
+buildingQuiz();`
 
 ## Loops
 function showResults() {
