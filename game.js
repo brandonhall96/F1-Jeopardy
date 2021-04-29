@@ -99,6 +99,7 @@ const myAnswers2 = document.getElementById('results2')
 const restartButton = document.getElementById('reset')
 const nextButton = document.getElementById('next')
 
+
 let counter = 0; //this is counting questions
 let theScore = document.getElementById('score') // grabbing <p id=score 
 let score = 0;
