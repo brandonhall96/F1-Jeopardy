@@ -1,7 +1,7 @@
 
 const myQuestions = [
     {
-        question: "Which driver led Ferrari to 7 worlds championships?",
+        question: "Which driver led Ferrari to 7 world championships?",
         answers: {
             a: 'Carlos Sainz',
             b: 'Niki Lauda',
@@ -91,18 +91,12 @@ const myQuestions = [
 
 
 
-// here we have a function to build the quiz 
-
-
-let counter = 0;
-const quizBox = document.getElementById('quiz')  // Were taking the html elements and storing my
-const resultsBox = document.getElementById('answers')  // references to them in variables like so
 const submitButton = document.getElementById('submit')
 const theQuestion = document.getElementById('question')
 const theAnswers = document.querySelectorAll('input[type="radio"]')
 const myAnswers = document.getElementById('results')
 
-
+let counter = 0;
 let theScore = document.getElementById('score') // grabbing <p id=score 
 let score = 0;
 let theAnswersLabels = document.querySelectorAll('label')
