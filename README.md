@@ -68,7 +68,10 @@ buildingQuiz();
 
 # FUTURE CONSIDERATIONS
 
-I would like to make the game process more automated so some of the buttons wont' be needed.
+* More automated process
+* Easy, Hard, and Legendary difficulties
+* More Questions
+
 
 
 
