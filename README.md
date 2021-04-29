@@ -29,22 +29,24 @@ The game uses DOM Manipulation to display all questions and answers. It also use
 # Examples
 
 ## Dom Manipulation
+
 ```function buildingQuiz() {
 theQuestion.innerHTML = myQuestions[counter].question
 theAnswersLabels[0].textContent = myQuestions[counter].answers.a
 theAnswersLabels[1].innerHTML = myQuestions[counter].answers.b
 theAnswersLabels[2].innerHTML = myQuestions[counter].answers.c   
 theAnswersLabels[3].innerHTML = myQuestions[counter].answers.d
-
 theAnswers[0].value = 'a'
 theAnswers[1].value = 'b'
   console.log(theAnswers[0].value)
 
 }
 
-buildingQuiz();```
+buildingQuiz();
+```
 
-## Loop
+
+## Loops
 
 ```function showResults() {
     for (let i = 0; i < theAnswers.length; i++) {
@@ -66,9 +68,8 @@ buildingQuiz();```
     }
     
     
-}```
-
-
+}
+```
 
 
 # FUTURE CONSIDERATIONS
