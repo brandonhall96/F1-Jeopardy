@@ -23,7 +23,9 @@ h1 {
     color: #ff2800;
     font-family: 'Monoton', cursive;
     margin-top: -60px;
-    font-size: 40px;    
+    font-size: 60px;   
+    
+     
 }
 
 #question {
@@ -90,7 +92,8 @@ h1 {
 
 .header img {
     width: 200px;
-    height: 200px;
+    height: 150px;
+    margin-bottom: 5px;
 }
 
 
