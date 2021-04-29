@@ -31,9 +31,9 @@ I would also like to add more difficulties that will include more questions.
 
 # Objects
 
-*`Submit Button`*
-*`Next Button`*
-*`Submit Button`*
+*`Submit button`*
+*`Next button`*
+*`Try again button`*
 *`Questions`*
 *`Answers`*
 *`Score`*

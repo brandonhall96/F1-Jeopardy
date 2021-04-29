@@ -1,6 +1,6 @@
 # F1 Jeopardy
 
-Explanation of the game that was built and the deployed link will go here.
+The game is fairly easy to play and will depend of the users knowledge of the sport. The game will consist of 8 questions and a score of at least 50% will be needed to win.
 
 # HOW TO PLAY
 
