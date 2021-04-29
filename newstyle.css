@@ -7,9 +7,11 @@
 
 body {
     background-image: url(https://cdn.statically.io/img/wallpapercart.com/wp-content/uploads/2019/08/f1-desktop-wallpaper.jpg?quality=100&f=auto);
-    margin-top: 50px;
+    margin-top: 5%;
+    margin-left: 30%;
    background-size: 1200px 700px;
    text-align: center;
+   background-size: auto;
    
    
 
@@ -23,11 +25,17 @@ h1 {
 #question {
     color: red;
     font-family: 'Orelega One', cursive;
-    font-size: 60;
+    font-size: 30px;
 }
 
 .two {
     font-family: 'Orelega One', cursive;
     color: red;
+}
+
+#results {
+    font-family: 'Orelega One', cursive;
+    color: red;
+    font-size: 30px;
 }
 

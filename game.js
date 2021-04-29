@@ -147,6 +147,7 @@ function showResults() {
         else {        // if its not 
             console.log('this is incorrect')
             myAnswers.textContent = 'Incorrect'
+            // window.alert('You got it wrong')
         }
 
 

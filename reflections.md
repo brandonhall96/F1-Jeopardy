@@ -24,17 +24,17 @@
 - [x] What did you achieve yesterday?
 - [x] What are your goals for today?
 - [x] Do you have any blockers?
-1. RESPONSE
-2. RESPONSE
-3. RESPONSE
+1. got the game to actually be functional   
+2. my goal for today is to fix a few things and add some more css
+3. some of the functionality
 
 # Thursday
 - [x] What did you achieve yesterday?
 - [x] What are your goals for today?
 - [x] Do you have any blockers?
-1. RESPONSE
-2. RESPONSE
-3. RESPONSE
+1. Got the game working and playable    
+2. to finish the game and workout any bugs
+3. not yet but i will soon
 
 # Friday
 - [x] What did you achieve yesterday?
