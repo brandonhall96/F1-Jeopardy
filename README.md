@@ -60,21 +60,14 @@ buildingQuiz();
             console.log('this is incorrect')
             myAnswers2.textContent = 'Incorrect'
                 }
-
-
-
+        }
     }
-
-    }
-    
-    
 }
 ```
 
-
 # FUTURE CONSIDERATIONS
 
-I would like to make the game process more automated so some of the buttons wont be needed.
+I would like to make the game process more automated so some of the buttons wont' be needed.
 
 
 
