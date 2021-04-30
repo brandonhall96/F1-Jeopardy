@@ -95,7 +95,8 @@ buildingQuiz();
 
 # Restart
 
-```function restartGame() {
+```
+function restartGame() {
     counter = 0; 
     score = 0; 
     theScore.textContent = score;
