@@ -28,19 +28,35 @@ https://brandonhall96.github.io/F1-Trivia/
 # How it works
 The game uses DOM Manipulation to display all questions and answers. It also uses functions to check the users submitted answers and runs them agianst the all the correct ones to see if they are correct. I used an If Else statement to display different messages depending on the users answer.
 
+# Making the questions and answers
+```
+const myQuestions = [
+    {
+        question: "Which driver led Ferrari to 7 world championships?",
+        answers: {
+            a: 'Carlos Sainz',
+            b: 'Niki Lauda',
+            c: 'Michael Schumacher',
+            d: 'Sebastian Vettel'
+        },
+        correctAnswer: 'c'
+    }
+```
+
+
 
 # Dom Manipulation to display questions
 
 ```
 function buildingQuiz() {
-theQuestion.innerHTML = myQuestions[counter].question
-theAnswersLabels[0].textContent = myQuestions[counter].answers.a
-theAnswersLabels[1].innerHTML = myQuestions[counter].answers.b
-theAnswersLabels[2].innerHTML = myQuestions[counter].answers.c   
-theAnswersLabels[3].innerHTML = myQuestions[counter].answers.d
-theAnswers[0].value = 'a'
-theAnswers[1].value = 'b'
-  console.log(theAnswers[0].value)
+    theQuestion.innerHTML = myQuestions[counter].question
+    theAnswersLabels[0].textContent = myQuestions[counter].answers.a
+    theAnswersLabels[1].innerHTML = myQuestions[counter].answers.b
+    theAnswersLabels[2].innerHTML = myQuestions[counter].answers.c   
+    theAnswersLabels[3].innerHTML = myQuestions[counter].answers.d
+    theAnswers[0].value = 'a'
+    theAnswers[1].value = 'b'
+    console.log(theAnswers[0].value)
 
 }
 

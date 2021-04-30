@@ -40,7 +40,13 @@
 - [x] What did you achieve yesterday?
 - [x] What are your goals for today?
 - [x] Do you have any blockers?
-1. RESPONSE
-2. RESPONSE
-3. RESPONSE
+1. got all the bugs fixed and finished some csss
+2. have a killer presentation
+3. yes
+
+1. For HTML i now understand why the id's and classes are so important. CSS i got a little better with tagging specific things, i also got better at sizing background images. I have been having the hardest time with Javascript but this project allowed me to try things and actually understand how stuff works, i feel a lot better with how functions and loops works i cant say i could go out and write one with a ton of logic. I still think i need practice with it along with canvas after seeing how everyone used it and i dont really have an understanding of it, but just something to work torwards.
+
+2. Javascript as a whole, logic, canvas, maybe even going over DOM manipulation a little bit.
+
+
 

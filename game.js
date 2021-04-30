@@ -195,7 +195,9 @@ function nextMove() {
         gameFinal();
     }
 }
-    
+
+
+ 
 
 
 
