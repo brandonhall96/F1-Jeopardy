@@ -31,7 +31,8 @@ The game uses DOM Manipulation to display all questions and answers. It also use
 
 # Dom Manipulation to display questions
 
-```function buildingQuiz() {
+```
+function buildingQuiz() {
 theQuestion.innerHTML = myQuestions[counter].question
 theAnswersLabels[0].textContent = myQuestions[counter].answers.a
 theAnswersLabels[1].innerHTML = myQuestions[counter].answers.b
@@ -48,7 +49,8 @@ buildingQuiz();
 
 # Checking answers and counting score
 
-```function showResults() {
+```
+function showResults() {
     for (let i = 0; i < theAnswers.length; i++) {
         if (theAnswers[i].checked) {
             if (theAnswers[i].value == myQuestions[counter].correctAnswer) {
@@ -72,7 +74,8 @@ buildingQuiz();
 
 
 # Game results
-```function gameFinal() {
+```
+function gameFinal() {
     if (score >= 4) {
         endGame.textContent = 'You Win!'
         }
