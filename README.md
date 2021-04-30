@@ -28,9 +28,8 @@ https://brandonhall96.github.io/F1-Trivia/
 # How it works
 The game uses DOM Manipulation to display all questions and answers. It also uses functions to check the users submitted answers and runs them agianst the all the correct ones to see if they are correct. I used an If Else statement to display different messages depending on the users answer.
 
-# Examples
 
-## Dom Manipulation to display questions
+# Dom Manipulation to display questions
 
 ```function buildingQuiz() {
 theQuestion.innerHTML = myQuestions[counter].question
@@ -47,7 +46,7 @@ theAnswers[1].value = 'b'
 buildingQuiz();
 ```
 
-## Checking answers and counting score
+# Checking answers and counting score
 
 ```function showResults() {
     for (let i = 0; i < theAnswers.length; i++) {
@@ -65,14 +64,14 @@ buildingQuiz();
     }
 }
 ```
-### Example
+## Example
 
 ![Starting screen](/example2.jpeg)
 ![Starting screen](/example3.jpeg)
 
 
 
-## Game results
+# Game results
 ```function gameFinal() {
     if (score >= 4) {
         endGame.textContent = 'You Win!'
@@ -85,7 +84,7 @@ buildingQuiz();
         
         
 
-### Example
+## Example
 
 ![Starting screen](/example4.jpeg)
 ![Starting screen](/example5.jpeg)
@@ -94,8 +93,7 @@ buildingQuiz();
 
 
 
-
-## Restart
+# Restart
 
 ```function restartGame() {
     counter = 0; 
@@ -108,7 +106,6 @@ buildingQuiz();
     buildingQuiz();
 }
 ```
-
 
 
 
