@@ -26,11 +26,11 @@ https://brandonhall96.github.io/F1-Trivia/
 
 
 # How it works
-The game uses DOM Manipulation to display all questions and answers. It also uses multiple functions to check the users submitted answers and runs them agianst the all the correct ones to verify.
+The game uses DOM Manipulation to display all questions and answers. It also uses functions to check the users submitted answers and runs them agianst the all the correct ones to see if they are correct. I used an If Else statement to display different messages depending on the users answer.
 
 # Examples
 
-## Dom Manipulation
+## Dom Manipulation to display questions
 
 ```function buildingQuiz() {
 theQuestion.innerHTML = myQuestions[counter].question
@@ -47,7 +47,7 @@ theAnswers[1].value = 'b'
 buildingQuiz();
 ```
 
-## Loops
+## Checking answers and counting score
 
 ```function showResults() {
     for (let i = 0; i < theAnswers.length; i++) {
@@ -65,6 +65,53 @@ buildingQuiz();
     }
 }
 ```
+### Example
+
+![Starting screen](/example2.jpeg)
+![Starting screen](/example3.jpeg)
+
+
+
+## Game results
+```function gameFinal() {
+    if (score >= 4) {
+        endGame.textContent = 'You Win!'
+        }
+        else {
+            endGame2.textContent = 'You lose, try again!'
+             }
+        }
+```
+        
+        
+
+### Example
+
+![Starting screen](/example4.jpeg)
+![Starting screen](/example5.jpeg)
+
+
+
+
+
+
+## Restart
+
+```function restartGame() {
+    counter = 0; 
+    score = 0; 
+    theScore.textContent = score;
+    myAnswers.textContent = ''
+    myAnswers2.textContent = ''
+    endGame.textContent = ''
+    endGame2.textContent = ''
+    buildingQuiz();
+}
+```
+
+
+
+
 
 # Future considerations
 
